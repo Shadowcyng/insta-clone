@@ -1,0 +1,35 @@
+*{
+    margin:0;
+}
+.loading{
+    background-color: #fafafa;
+    height: 100vh;
+           /* transform:translate(-50%,-50%); */
+        }
+.loading__image{
+    margin-top: 20%;
+    width: 100px;
+    height: auto;
+    color: gray;
+    opacity: 40%;
+    object-position: center;
+}
+@media screen and (max-width: 720px){
+*{
+     margin:0;
+}
+.loading{
+    background-color: #fafafa;
+    height: 100vh;
+    }
+.loading__image{
+    width: 50px;
+    height: auto;
+    color: gray;
+    position: absolute;
+    top:40% ;
+    left: 50%;
+    transform:translate(-50%,-50%);
+      
+    }
+}

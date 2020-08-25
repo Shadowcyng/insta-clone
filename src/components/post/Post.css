@@ -1,0 +1,109 @@
+.post{
+    max-width: 500px;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+}
+h3{
+    font-weight: 600;
+}
+.post__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.post__headerDelete{
+    max-width: 500px;
+    border: 1px solid lightgray;
+   
+}
+.post__avatar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.post__avatar{
+    margin-right: 10px;
+}
+.post__image{
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    pointer-events: none;
+}
+
+.post__caption{
+    margin-bottom: 5px;
+}
+.post__textSpan{
+    margin-left: 20px ;
+    font-weight: 620;
+}
+.post__textP{
+    font-weight: 350 !important;
+    font-size: 15px;
+}
+.post__commentBox{
+    display: flex;
+    margin-top: 10px;
+}  
+.post__commentInput{
+    flex: 1;
+    border: none ;
+    border-top: .5px solid lightgray;
+    padding: 10px;
+    outline: none;
+}
+.post__commentButton{
+    flex: 0;
+    color:#0095F6;
+    border: none;
+    background-color: transparent;
+    border-top: 1px solid lightgray;
+}
+.post__like{
+    margin-left: 7px;
+    margin-top:10px;
+    color: gray;
+    font-size: 32px !important;
+    border: none;
+}
+.post__likeText{
+    padding-left: 1px;
+    position: relative;
+    top: 8px;
+}
+@media screen and (max-width: 720px){
+    .post{
+        max-width: 500px;
+        border: 1px solid lightgray;
+        margin-bottom: 45px;
+    }
+    .post__like{
+        margin-top:10px;
+        color: gray;
+        font-size: 32px !important;
+        border: none;
+    }
+    h3{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .post__commentButton{
+        flex: 0;
+        color:#0095F6;
+        border: none;
+        background-color: transparent;
+        border-top: 1px solid lightgray;
+    }
+    .post__textSpan{
+        margin-left: 20px ;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .post__textP{
+        font-weight: 275 !important;
+        font-size: 16px;
+    }
+}
